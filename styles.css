@@ -49,6 +49,9 @@ footer{
     font-size: xx-small;
     color: rgb(14, 14, 21);
 }
+p{
+    font-size: 1.5rem ;
+}
 
 @media (min-width: 430px) {
     img{
@@ -68,5 +71,8 @@ footer{
     footer{
         margin-top: 7vh;
         font-size: small;
+    }
+    p{
+        font-size: 2rem;
     }
 }
