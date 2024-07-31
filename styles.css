@@ -1,0 +1,72 @@
+html{
+    background-image: url(./Images/dicebg.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 6rem;
+    display: inline-block;
+    margin-top: 5vh;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.imgcontainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 130px;
+    height: 130px;
+}
+
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(9, 9, 9);
+    letter-spacing:2px;
+    font-size: 1.5rem;
+    margin-top: 2px;
+}
+
+footer{
+    margin-top: 10vh;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Playwrite VN", cursive;
+    font-weight: bold;
+    font-size: xx-small;
+    color: rgb(14, 14, 21);
+}
+
+@media (min-width: 430px) {
+    img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 1400px) {
+    img{
+        width: 300px;
+        height: 300px;
+    }
+    h2{
+        font-size:3rem;
+    }
+    footer{
+        margin-top: 7vh;
+        font-size: small;
+    }
+}
